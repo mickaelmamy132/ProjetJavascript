@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Linaire</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/lin.css">
+        <script src="../css/bootstrap.min.js"></script>
+    </head>
+    <body >
+        <div class="container-fluid row ">
+            <header class="fixed-top ">
+                <nav class="navbar ps-5 ">
+                    <ul class="nav p-2">
+                        <li class="nav-item ps-5">
+                            <a class="nav-link text-white border rounded" href="home.html">Accueil</a>
+                        </li>
+                        <li class="nav-item ps-5">
+                            <a class="nav-link text-white border rounded"  href="equation.html">Equation sécond dégre</a>
+                        </li>
+                        <li class="nav-item ps-5">
+                            <a class="nav-link text-white border rounded bg-dark" href="#">Systeme linéaire à trois inconnues</a>
+                        </li>
+                    </ul>
+                  </nav>
+            </header>
+        </div>
+        <div class="container-fluid row pt-5 mt-5 text-center justify-content-center">
+             <h3 class="coeffa">SYSTEME LINEAIRE</h3>
+             <h1></h1>
+         <div class=" row lineaire justify-content-between align-items-center">
+
+                <div class="bg-white rounded mb-5 col-md-7 p-5 ">
+                  <h5 class="card-title text-primary">METTEZ LES VALEURS DE X,Y ET Z</h5>
+                  <input type="text"  id="a1" class="m-2 text-center d" placeholder="valeur de x"><p>+</p>
+                  <input type="text"  id="b1" class="m-2 text-center d" placeholder="valeur de y"><p>+</p>
+                  <input type="text"  id="c1" class="m-2 text-center" placeholder="valeur de z"><p>=</p>
+                  <input type="text"  id="d1" class="m-2 text-center d" placeholder=""><br><br>
+                  <input type="text"  id="a2" class="m-2 text-center d" placeholder="valeur de x"><p>+</p>
+                  <input type="text"  id="b2" class="m-2 text-center d" placeholder="valeur de y"><p>+</p>
+                  <input type="text"  id="c2" class="m-2 text-center d" placeholder="valeur de z"><p>=</p>
+                  <input type="text"  id="d2" class="m-2 text-center" placeholder="" ><br><br>
+                  <input type="text"  id="a3" class="m-2 text-center" placeholder="valeur de x"><p>+</p>
+                  <input type="text"  id="b3" class="m-2 text-center" placeholder="valeur de y"><p>+</p>
+                  <input type="text"  id="c3" class="m-2 text-center" placeholder="valeur de z"><p>=</p>
+                  <input type="text"  id="d3" class="m-2 text-center" placeholder=""><br><br>
+                  <button class="btn btn-primary mb-3" id="btn">calculer</button><br>
+                  <button class="btn btn-danger w-50" style="width: 30rem" id="ref">initialiser</button>
+              </div> 
+                 
+               <div class="bg-white rounded mb-5 col-md-4 p-0 " >
+                  <h5 class="card-title text-primary">SOLUTIONS </h5>
+                  <input type="text"  id="x" class="m-3 text-center " placeholder="X=?"B readonly >
+                  <input type="text"  id="y" class="m-3 text-center " placeholder="Y=?" readonly>
+                  <input type="text"  id="z" class="m-3 text-center " placeholder="Z=?" readonly>
+              </div>
+              
+        </div> 
+        <script src="../js/lineaire.js"></script>
+    </body>
+</html> 

@@ -1,0 +1,71 @@
+header
+{
+    background-color: grey;
+}
+
+body
+{
+background-color: rgb(37, 58, 56);
+color: white;
+}
+
+a:hover
+{
+    background-color: rgba(66, 64, 64, 0.5);
+}
+ 
+#bien
+{
+	color: red;
+}
+.cont
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between
+}
+.cont1
+{
+	width: 40%;
+	margin-top: 100px;
+	margin-left: 20px;
+}
+.cont2
+{
+	width: 40%;
+	margin-top: 90px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+ 
+
+.upTextAnim
+{
+	animation-name: upText;
+	animation-duration: 5.5s;
+	animation-delay: 0s;
+	margin-top: -4rem;
+	text-align: center;
+	font-size:1rem;
+	width: 100% ;
+	display: block;
+}
+.app
+{
+	box-shadow: 0px 15px 60px green;
+}
+
+@keyframes upText{
+	0% {
+		transform: none;
+		opacity: 0;
+	}
+	50%{
+		transform: translateY(-3rem);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-3rem);
+		opacity: 1;
+	}
+}
